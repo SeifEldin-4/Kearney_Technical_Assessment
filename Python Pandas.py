@@ -35,10 +35,10 @@ average_salary = salaries.mean()
 median_salary = salaries.median()
 lower_quartile = salaries.quantile(0.25)
 upper_quartile = salaries.quantile(0.75)
-print(f"Average Salary: {average_salary}")
-print(f"Median Salary: {median_salary}")
-print(f"Lower Quartile (25th percentile): {lower_quartile}")
-print(f"Upper Quartile (75th percentile): {upper_quartile}")
+print("Average Salary",average_salary)
+print("Median Salary",median_salary)
+print("Lower Quartile (25th percentile)",lower_quartile)
+print("Upper Quartile (75th percentile)",upper_quartile)
 
 
 
